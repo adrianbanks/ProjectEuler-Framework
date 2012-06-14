@@ -1,0 +1,13 @@
+using ProjectEuler.Core;
+
+namespace ProjectEuler.CSharpSolutions
+{
+    [Solution(NUMBER)]
+    internal sealed class SolutionNUMBER : BaseSolution
+    {
+        public override long GetAnswer()
+        {
+            return NOT_YET_SOLVED;
+        }
+    }
+}

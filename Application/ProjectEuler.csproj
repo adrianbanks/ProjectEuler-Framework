@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{75C190EC-B9CA-463E-AB28-66BE88AD8B1F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ProjectEuler</RootNamespace>
+    <AssemblyName>ProjectEuler</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>http://localhost/ProjectEuler/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <StartupObject>ProjectEuler.Program</StartupObject>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;TEST</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\SolutionInfo.cs">
+      <Link>SolutionInfo.cs</Link>
+    </Compile>
+    <Compile Include="Problems\01-10\Problem01.cs" />
+    <Compile Include="Problems\01-10\Problem10.cs" />
+    <Compile Include="Problems\01-10\Problem02.cs" />
+    <Compile Include="Problems\01-10\Problem03.cs" />
+    <Compile Include="Problems\01-10\Problem04.cs" />
+    <Compile Include="Problems\01-10\Problem05.cs" />
+    <Compile Include="Problems\01-10\Problem06.cs" />
+    <Compile Include="Problems\01-10\Problem07.cs" />
+    <Compile Include="Problems\01-10\Problem08.cs" />
+    <Compile Include="Problems\01-10\Problem09.cs" />
+    <Compile Include="Problems\11-20\Problem11.cs" />
+    <Compile Include="Problems\11-20\Problem12.cs" />
+    <Compile Include="Problems\11-20\Problem13.cs" />
+    <Compile Include="Problems\11-20\Problem14.cs" />
+    <Compile Include="Problems\11-20\Problem15.cs" />
+    <Compile Include="Problems\11-20\Problem16.cs" />
+    <Compile Include="Problems\11-20\Problem17.cs" />
+    <Compile Include="Problems\11-20\Problem18.cs" />
+    <Compile Include="Problems\11-20\Problem19.cs" />
+    <Compile Include="Problems\11-20\Problem20.cs" />
+    <Compile Include="Problems\21-30\Problem21.cs" />
+    <Compile Include="Problems\21-30\Problem22.cs" />
+    <Compile Include="Problems\21-30\Problem23.cs" />
+    <Compile Include="Problems\21-30\Problem24.cs" />
+    <Compile Include="Problems\21-30\Problem25.cs" />
+    <Compile Include="Problems\21-30\Problem26.cs" />
+    <Compile Include="Problems\21-30\Problem27.cs" />
+    <Compile Include="Problems\21-30\Problem28.cs" />
+    <Compile Include="Problems\21-30\Problem29.cs" />
+    <Compile Include="Problems\21-30\Problem30.cs" />
+    <Compile Include="Problems\31-40\Problem31.cs" />
+    <Compile Include="Problems\31-40\Problem32.cs" />
+    <Compile Include="Problems\31-40\Problem33.cs" />
+    <Compile Include="Problems\31-40\Problem34.cs" />
+    <Compile Include="Problems\31-40\Problem35.cs" />
+    <Compile Include="Problems\31-40\Problem36.cs" />
+    <Compile Include="Problems\31-40\Problem37.cs" />
+    <Compile Include="Problems\31-40\Problem38.cs" />
+    <Compile Include="Problems\31-40\Problem39.cs" />
+    <Compile Include="Problems\31-40\Problem40.cs" />
+    <Compile Include="Problems\41-50\Problem41.cs" />
+    <Compile Include="Problems\41-50\Problem42.cs" />
+    <Compile Include="Problems\41-50\Problem43.cs" />
+    <Compile Include="Problems\41-50\Problem44.cs" />
+    <Compile Include="Problems\41-50\Problem45.cs" />
+    <Compile Include="Problems\41-50\Problem46.cs" />
+    <Compile Include="Problems\41-50\Problem47.cs" />
+    <Compile Include="Problems\41-50\Problem48.cs" />
+    <Compile Include="Problems\41-50\Problem49.cs" />
+    <Compile Include="Problems\41-50\Problem50.cs" />
+    <Compile Include="Problems\61-70\Problem79.cs" />
+    <Compile Include="Problems\61-70\Problem67.cs" />
+    <Compile Include="Problems\81-90\Problem81.cs" />
+    <Compile Include="Problems\81-90\Problem82.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="TimerBlock.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app.ico" />
+    <EmbeddedResource Include="Problems\61-70\79_keylog.txt" />
+    <EmbeddedResource Include="Problems\21-30\22_names.txt" />
+    <EmbeddedResource Include="Problems\41-50\42_words.txt" />
+    <EmbeddedResource Include="Problems\61-70\67_triangle.txt" />
+    <EmbeddedResource Include="Problems\81-90\81_matrix.txt" />
+    <EmbeddedResource Include="Problems\81-90\82_matrix.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{D66F8574-7D16-4CBA-934C-723BC219A676}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSharpSolutions\CSharpSolutions.csproj">
+      <Project>{92011987-4854-43F6-956A-5EDF82E105BE}</Project>
+      <Name>CSharpSolutions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FSharpSolutions\FSharpSolutions.fsproj">
+      <Project>{46164EE7-18D7-4288-9D2A-7B2D7F56AB8A}</Project>
+      <Name>FSharpSolutions</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

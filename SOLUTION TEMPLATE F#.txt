@@ -1,0 +1,11 @@
+﻿namespace ProjectEuler.FSharpSolutions
+
+open ProjectEuler.Core
+
+[<Solution(NUMBER)>]
+type SolutionNUMBER = class 
+  inherit BaseSolution
+  new() = {}
+  override x.GetAnswer() =
+    NOT_YET_SOLVED
+end

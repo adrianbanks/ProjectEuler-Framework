@@ -1,0 +1,28 @@
+using System;
+
+namespace ProjectEuler
+{
+    [Problem(NUMBER)]
+    internal sealed class ProblemNUMBER : BaseProblem
+    {
+        public override DateTime DateSet{get {return new DateTime(0, 0, 0);}}
+
+        public override string Title
+        {
+            get
+            {
+                return "";
+            }
+        }
+
+        public override string Description
+        {
+            get
+            {
+                return @"";
+            }
+        }
+
+        public override long? ExpectedAnswer{get {return null;}}
+    }
+}
