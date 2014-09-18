@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7AFFE6DE-01B1-47F1-9C1D-0B8BB4575EF9}"
 	ProjectSection(SolutionItems) = preProject
 		PROBLEM TEMPLATE.txt = PROBLEM TEMPLATE.txt
